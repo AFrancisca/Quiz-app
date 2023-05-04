@@ -1,0 +1,59 @@
+
+body{
+  background: linear-gradient(to right, #b1afff, #b8e8fc);
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
+#questionnaire{
+  background-color: #fff;
+  overflow: scroll;
+  margin: 30px;
+  align-items: center;
+
+}
+#submit{
+  height: 90px;
+}
+#next{
+  width: 400px;
+}
+.header{
+  padding: 4rem;
+}
+h1, h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+button{
+  background-color: #fce2db;
+  color: #16213e;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+button:hover{
+  background-color: #e8aa42;
+}
+button:focus{
+  outline: none;
+  background-color: #9ede73;
+}

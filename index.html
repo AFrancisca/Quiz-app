@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="col-lg-6" id="questionnaire">
+        <div class="header">
+          <h2 id="test">Quiz</h2>
+          <ul>
+            <li>
+              <input type="radio" name="once" id="i" class="answer">
+              <label for="i" id="i_choice">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="once" id="ii" class="answer">
+              <label for="ii" id="ii_choice">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="once" id="iii" class="answer">
+              <label for="iii" id="iii_choice">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="once" id="iv" class="answer">
+              <label for="iv" id="iv_choice">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button id="next">Go To The Next Question</button>
+      </div>
+<div class="col-lg-6" id="last_container">
+    <button id="submit">Submit and Finish</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
